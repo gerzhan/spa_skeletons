@@ -1,9 +1,0 @@
-{
-  "name": "spa_skeletons_gerzhan",
-  "version": "0.0.0.1",
-  "dependencies": {
-    "requirejs": "~2.1.6",
-    "requirejs-text": "~2.0.6",
-    "requirejs-domready": "~2.0.1"
-  }
-}
