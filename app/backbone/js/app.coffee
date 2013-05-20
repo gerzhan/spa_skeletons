@@ -9,6 +9,7 @@ define ["backbone","marionette"],
       
     App.on "initialize:after", ->
       console.log "initialize:after"
+      Backbone.history.start()
       return  
        
        

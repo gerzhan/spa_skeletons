@@ -9,6 +9,7 @@ define(["backbone", "marionette"], function(Backbone, Marionette) {
   });
   App.on("initialize:after", function() {
     console.log("initialize:after");
+    Backbone.history.start();
   });
   return App;
 });
