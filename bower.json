@@ -6,6 +6,10 @@
     "requirejs-text": "~2.0.6",
     "requirejs-domready": "~2.0.1",
     "backbone-amd": "~1.0.0",
-    "underscore-amd": "~1.4.4"
+    "underscore-amd": "~1.4.4",
+    "backbone.marionette": "~1.0.2",
+    "backbone.wreqr": "~0.2.0",
+    "backbone.eventbinder": "~1.0.2",
+    "backbone.babysitter": "~0.0.6"
   }
 }
