@@ -16,7 +16,7 @@ require.config  ##конфигурация RequireJS
       'exports': 'bootstrap'    
     
 ## Активация  
-require ["jquery","underscore","backbone" ,"modernizr","bootstrap"],
-($,_,Backbone) ->   
+require ["jquery","underscore","backbone" ,"app","modernizr","bootstrap"],
+($,_,Backbone,App) ->   
   return
   
