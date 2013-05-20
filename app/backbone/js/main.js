@@ -31,4 +31,6 @@ require.config({
   }
 });
 
-require(["jquery", "underscore", "backbone", "app", "modernizr", "bootstrap"], function($, _, Backbone, App) {});
+require(["jquery", "underscore", "backbone", "app", "modernizr", "bootstrap"], function($, _, Backbone, App) {
+  App.start();
+});

@@ -24,6 +24,7 @@ require.config  ##конфигурация RequireJS
     
 ## Активация  
 require ["jquery","underscore","backbone" ,"app","modernizr","bootstrap"],
-($,_,Backbone,App ) ->   
+($,_,Backbone,App ) ->  
+  App.start() 
   return
   

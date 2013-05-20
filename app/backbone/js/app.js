@@ -4,5 +4,11 @@ define(["backbone", "marionette"], function(Backbone, Marionette) {
 
   console.log("App load");
   App = new Marionette.Application();
+  App.on("initialize:before", function() {
+    console.log("initialize:before");
+  });
+  App.on("initialize:after", function() {
+    console.log("initialize:after");
+  });
   return App;
 });
