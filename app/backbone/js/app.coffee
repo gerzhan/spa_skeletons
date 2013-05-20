@@ -1,7 +1,7 @@
 # приложение 
-define ["backbone"],  
-  (Backbone)->
+define ["backbone","marionette"],  
+  (Backbone,Marionette)->
     console.log "App load"
-    App = Backbone.Router.extend
+    App = new  Marionette.Application()
     
-    return new App()
+    return App
