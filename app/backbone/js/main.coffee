@@ -4,6 +4,7 @@ require.config  ##конфигурация RequireJS
     jquery:'libs/jquery.min' 
     backbone:'../../scripts/vendor/backbone-amd/backbone-min'
     underscore:'../../scripts/vendor/underscore-amd/underscore-min'
+    text: '../../scripts/vendor/requirejs-text/text'
     marionette : '../../scripts/vendor/backbone.marionette/lib/core/amd/backbone.marionette.min' 
     'backbone.wreqr' : '../../scripts/vendor/backbone.wreqr/lib/amd/backbone.wreqr.min' 
     'backbone.eventbinder' : '../../scripts/vendor/backbone.eventbinder/lib/amd/backbone.eventbinder' 
