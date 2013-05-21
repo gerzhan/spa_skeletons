@@ -48,7 +48,7 @@ require ['underscore', 'jquery', 'jasmine-html'],  (_, $, jasmine)->
 
   specs = [] 
   specs.push './spec/app_spec'  
-#  specs.push 'spec/models/TodoSpec' 
+  specs.push 'spec/models/AccountModel' 
 #  specs.push 'spec/views/ClearCompletedSpec' 
 #  specs.push 'spec/views/CountViewSpec' 
 #  specs.push 'spec/views/FooterViewSpec' 

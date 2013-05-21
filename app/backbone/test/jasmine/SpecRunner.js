@@ -48,6 +48,7 @@ require(['underscore', 'jquery', 'jasmine-html'], function(_, $, jasmine) {
   };
   specs = [];
   specs.push('./spec/app_spec');
+  specs.push('spec/models/AccountModel');
   return $(function() {
     return require(specs, function() {
       return jasmineEnv.execute();
